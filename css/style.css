@@ -2,15 +2,22 @@ body {
 }
 
 main {
-    font-family: 'Courier New';font-size: 22px;
+    font-family: 'Georgia, serif';font-size: 22px;
     color: black;
 }
 
 header {
-    background-color: black;
+    background-color: #ccb652e0;
     color: white;
 }
 
+h1{
+    color: #f178a0;
+}
+
+
+
+       
 /* Dropdown Button */
 .dropButton{
 background-color: #4CAF50;
