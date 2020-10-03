@@ -1,0 +1,61 @@
+body {
+}
+
+main {
+    font-family: 'Georgia, serif';font-size: 22px;
+    color: black;
+}
+
+header {
+    background-color: #ccb652e0;
+    color: white;
+}
+
+h1{
+    color: #f178a0;
+}
+
+
+
+       
+/* Dropdown Button */
+.dropButton{
+background-color: #4CAF50;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+}   
+
+/* Dropdown class */
+.dropDown{
+    position: relative;
+    display: inline-block;
+}
+
+/* Content hidden inside dropdown menu */
+.dropContent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+    z-index: 1;
+}
+
+/* links inside dropdown */
+.dropContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of links when hovered */
+.dropContent a:hover {background-color: #ddd;}
+
+/* show dropdown menu on hover */
+.dropDown:hover .dropContent{display: block;}
+
+/* Change the background color of the dropdown button when content is shown */
+.dropDown:hover .dropButton{background-color: #3e8e41;}

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+        <!-- <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}"> -->
+        <link rel="stylesheet" href="../static/css/style.css">
         {% if title %}
         <title>{{title}} - {{proj.name}}</title>
         {% else %}
@@ -24,9 +25,9 @@
                     <div class="dropDown">
                         <button class="dropButton">Profile Settings</button>
                         <div class="dropContent">
-                            <a href="/profile/viewProfile.html">View Profile</a>
-                            <a href="/profile/editProfile.html">Edit Profile</a>
-                            <a href="/profile/accountSettings.html">Account Settings</a>
+                            <a href="profile/viewProfile.html">View Profile</a>
+                            <a href="profile/editProfile.html">Edit Profile</a>
+                            <a href="profile/accountSettings.html">Account Settings</a>
                         </div>
                     </div>
                     <ul>
