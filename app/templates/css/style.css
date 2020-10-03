@@ -1,0 +1,23 @@
+body {
+}
+
+main {
+    font-family: 'Courier New';font-size: 22px;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+/* Dropdown Button */
+.dropButton{
+background-color: rgba(123, 123, 123, 2);
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+}   
+
+/* Dr

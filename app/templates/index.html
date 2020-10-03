@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+        {% if title %}
+        <title>{{title}} - {{proj.name}}</title>
+        {% else %}
+        <title>Welcome to {{proj.name}}!</title>
+        {% endif %}
+    </head>
+    <body id = "main">
+        <main>
+            <header>
+                <h1 id = "title"><a href="index.html">School Connect</a></h1>
+            </header>
+            <div>
+                <h2>Hello, {{ user.username }}!</h2>
+                {% for post in posts %}
+                <div><p>{{post.author.username}} says: <b>{{post.body}}</b></p></div>
+                {% endfor %}
+            </div>
+            <nav id="navbar">
+                <div class = "container">
+                    <div class="dropDown">
+                        <button class="dropButton">Settings</button>
+                        <div class="dropContent">
+                            <a href="#">------</a>
+                            <a href="/profile/viewProfile.html">View Profile</a>
+                            <a href="/profile/editProfile.html">Edit Profile</a>
+
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="register.html">Register for an Account</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div> 
+            </nav>
+            <div id = "content">
+                <div>
+                    
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
